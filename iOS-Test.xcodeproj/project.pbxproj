@@ -42,6 +42,7 @@
 				A6687C5320B95E6F004D5594 /* Products */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		A6687C5320B95E6F004D5594 /* Products */ = {
 			isa = PBXGroup;
