@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A665E0BE2276111000EA49E3 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A665E0BD2276111000EA49E3 /* .gitignore */; };
 		A6687C5620B95E6F004D5594 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6687C5520B95E6F004D5594 /* AppDelegate.swift */; };
 		A6687C5820B95E6F004D5594 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6687C5720B95E6F004D5594 /* ViewController.swift */; };
 		A6687C5B20B95E6F004D5594 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6687C5920B95E6F004D5594 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A665E0BD2276111000EA49E3 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = SOURCE_ROOT; };
 		A6687C5220B95E6F004D5594 /* iOS-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6687C5520B95E6F004D5594 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6687C5720B95E6F004D5594 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		A6687C5420B95E6F004D5594 /* iOS-Test */ = {
 			isa = PBXGroup;
 			children = (
+				A665E0BD2276111000EA49E3 /* .gitignore */,
 				A6687C5520B95E6F004D5594 /* AppDelegate.swift */,
 				A6687C5720B95E6F004D5594 /* ViewController.swift */,
 				A6687C5920B95E6F004D5594 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A665E0BE2276111000EA49E3 /* .gitignore in Resources */,
 				A6687C6020B95E71004D5594 /* LaunchScreen.storyboard in Resources */,
 				A6687C5D20B95E71004D5594 /* Assets.xcassets in Resources */,
 				A6687C5B20B95E6F004D5594 /* Main.storyboard in Resources */,
