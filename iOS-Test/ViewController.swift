@@ -21,11 +21,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changeColor(sender: UIButton) {
-        let r = CGFloat(arc4random() % 256);
-        let g = CGFloat(arc4random() % 256);
-        let b = CGFloat(arc4random() % 256);
+        let r = CGFloat.random(in: 0 ..< 1);
+        let g = CGFloat.random(in: 0 ..< 1);
+        let b = CGFloat.random(in: 0 ..< 1);
         
-        let color = UIColor(red: r / 255.0, green: g / 255.0, blue: b / 255.0, alpha: 1.0);
+        let color = UIColor(red: r, green: g, blue: b, alpha: 1.0);
         
         view.backgroundColor = color;
     }
