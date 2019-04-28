@@ -21,6 +21,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func changeColor(sender: UIButton) {
+        // Generate random colors from 0 to 1
         let r = CGFloat.random(in: 0 ..< 1);
         let g = CGFloat.random(in: 0 ..< 1);
         let b = CGFloat.random(in: 0 ..< 1);
